@@ -26,5 +26,5 @@ export class CreateEmployeeDto {
 
   @IsNotEmpty()
   @Type(() => Number)
-  salary: number;
+  salary: number;;
 }

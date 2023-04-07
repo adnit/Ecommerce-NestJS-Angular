@@ -23,5 +23,5 @@ export class UpdateEmployeeDto {
 
   @IsOptional()
   @Type(() => Number)
-  salary: number;
+  salary: number;;
 }

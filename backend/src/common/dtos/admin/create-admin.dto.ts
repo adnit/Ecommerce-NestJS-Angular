@@ -7,5 +7,7 @@ export class CreateAdminDto {
   user: IUser;
 
   @IsEnum(PermissionLevel)
-  permission_level: PermissionLevel;
+  permission_level: PermissionLevel;;
 }
+
+

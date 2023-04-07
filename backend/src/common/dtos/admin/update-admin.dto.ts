@@ -7,5 +7,5 @@ export class UpdateAdminDto {
   user?: IUser;
 
   @IsEnum(PermissionLevel)
-  permission_level?: PermissionLevel;
+  permission_level?: PermissionLevel;;
 }
